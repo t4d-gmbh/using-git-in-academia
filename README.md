@@ -43,17 +43,34 @@ A short overview what belongs to git and what belongs to the remote services
 #### Contributing to OpenSource projects
 - How does a typical workflow look when wanting to contribute to a GitHub project
 #### Examples and learning by doing
+Go through the feature branch workflow by means of Issue-Pull/Merge request
+
+
+---
+
+
+### 3. Part: Continuous Integration and Delivery
+_Also in [Git and its Remotes](https://github.com/t4d-gmbh/git-and-its-remotes) or separate repo?_
+
+#### Why remotes offer automation
+#### Basic structure of a workflow
+_Covering both GitHub and GitLab is probably an overkill, maybe just focus on GitLab_
+#### About runners
+- how they can be set up
+- a word about security
+#### Automation for non-software developer
+- build artifacts (like a .pdf from a .tex)
+- continuously test your code 
+- write documentations
+
+#### Examples and learning by doing
 Presenting the .tex paper example repo with pipeline to build .pdf and multiple
 different branches (different formatting for journals).
 
 _That would be the end of part 2_
 
----
-
-
-### 3. Part: [Git and its Remotes](https://github.com/t4d-gmbh/git-and-its-remotes) _or separate repo?_
-
 
 ---
 
 ### 4. Part: [Git and Science](https://github.com/t4d-gmbh/git-and-science)
+
