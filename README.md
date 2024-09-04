@@ -71,6 +71,8 @@ _That would be the end of part 1_
 
 #### Why remotes offer automation
 - Get an idea about the vast application possibilities of automation
+- Discover use cases of automation for non-software developer
+- Develop an idea how automation can help to maintain a healthy reference, facilitate collaboration and reduce errors
 
 #### Basic structure of an automation workflow
 - Become familiar with the principal elements that define a workflow and how workflows are defined on GitHub and GitLab
@@ -81,8 +83,10 @@ _That would be the end of part 1_
 - Learn about the possibility to setup and use dedicated runners
 - Understand how runners can be used to create reproducible environments
 
-#### Automation for non-software developer
-- Discover use cases of automation when working in a scientific context
+#### How to integrate automation in a project
+- Get familiarized with how automation workflows are triggered
+- Learn how automated workflows integrate with project management tools
+- Be able to safely use sensitive information (credentials, etc.) in an automation workflow
 
 #### Examples and learning by doing
 - Create your own workflow to render and publish a LaTeX document
