@@ -8,19 +8,29 @@ A course for the casual git user...
 ### 1. Part: [Working with git](https://github.com/t4d-gmbh/working-with-git)
 
 #### Introduction to git
-A short introduction about git and its main features
-- [About git](https://t4d-gmbh.github.io/working-with-git/git/about.html)
-- [Basic elements](https://t4d-gmbh.github.io/working-with-git/git/basic_elements.html)
-- ... _basically most of what is in `Git Workflow` in the working-with-git repo_
+- Know the basic building blocks of Git (Commits, Branches, Tags) and their relation
+- High-level understanding of how commits build up a history
+
 #### The basic workflow with git
+- Relate git operations (pull, push, etc.) to the typical workflow when developing a project
+- Understand how local changes integrate into the remote version and vice-versa
+
 #### Some useful commands
+- Know some commands beyond commit/pull/push and specific command options that facilitate the integration of git into the personal workflow
+
 #### Collaboration with git
-- Underlying principles
-- The "feature branch" workflow
-A simple collaboration approach suitable for most cases
+- Become familiar with the idea of maintaining a healthy reference and how it benefits collaboration
+- Understand how git operations and use patterns are designed to facilitate the maintenance of a healthy reference
+- Learn some best practices that facilitate the maintenance of a healthy branch and thus collaboration
+- Get acquainted with the "feature branch" workflow - A simple collaboration approach suitable for most cases
+- Recognise the benefits of using git even when working alone in a project
+
 #### A word on versioning
+- Grasp the difference between tags and commits and how tags facilitate navigation in the history of a repository
+- become acquainted with the [semver](semver.org) versioning standard and how versioning relates to tags.
+
 #### Examples and learning by doing
-Resolve some issues with the [Weekend Out](https://github.com/t4d-gmbh/Weekend-Out)
+- Resolve some issues (merge conflicts, etc.) on your own with the [Weekend Out](https://github.com/t4d-gmbh/Weekend-Out) project
 
 _That would be the end of part 1_
 
