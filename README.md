@@ -68,24 +68,24 @@ _That would be the end of part 1_
 
 
 ### 3. Part: Continuous Integration and Delivery
-_Also in [Git and its Remotes](https://github.com/t4d-gmbh/git-and-its-remotes) or separate repo?_
 
 #### Why remotes offer automation
-#### Basic structure of a workflow
-_Covering both GitHub and GitLab is probably an overkill, maybe just focus on GitLab_
+- Get an idea about the vast application possibilities of automation
+
+#### Basic structure of an automation workflow
+- Become familiar with the principal elements that define a workflow and how workflows are defined on GitHub and GitLab
+
 #### About runners
-- how they can be set up
-- a word about security
+- Understand the purpose of runners and how they interact with remote services
+- Become aware of the security implications the usage of runners might entail
+- Learn about the possibility to setup and use dedicated runners
+- Understand how runners can be used to create reproducible environments
+
 #### Automation for non-software developer
-- build artifacts (like a .pdf from a .tex)
-- continuously test your code 
-- write documentations
+- Discover use cases of automation when working in a scientific context
 
 #### Examples and learning by doing
-Presenting the .tex paper example repo with pipeline to build .pdf and multiple
-different branches (different formatting for journals).
-
-_That would be the end of part 3_
+- Create your own workflow to render and publish a LaTeX document
 
 
 ---
