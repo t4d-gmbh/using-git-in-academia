@@ -41,21 +41,27 @@ _That would be the end of part 1_
 ### 2. Part: [Git and its Remotes](https://github.com/t4d-gmbh/git-and-its-remotes)
 
 #### Git features vs remote services
-A short overview what belongs to git and what belongs to the remote services
+- Be able to tell what features and tools belong to git and what belong to remote services
+
 #### Most popular remotes
-- A short intro do _GitLab_ and _GitHub_ (mention _bitbucket_, _gitolite_, ...)
-- What exists at Uni
+- Come to know the most popular remote services (GitLab, GitHub, ...)
+- Learn what remote services are used at the university and what are good approaches to set up a collaborative project (for internal and external collaborations).
+
 #### Organizing projects and more
-- Intro to GitLab's (sub-)group structure and user roles
-- Intro do GitHub's user/organization and project structure
+- Discover how remote services can be used to organize collaboration across repositories
+- Basic understanding of GitHub's organisational structure (user, organizations, teams, projects, ...)
+- Basic understanding of GitLab's organisational structure ([sub-]groups)
+
 #### Project management with remotes
-- Issues; Pull/Merge Requests; Milestones and how to use them
-- How does the "feature branch" workflow look like when using Issues and Pull/Merge Reqs.
-- Creating releases from tags
+- Know the elementary building blocks for project management
+- Understand how these building blocks integrate into a "feature branch" development approach introduced in part 1
+
 #### Contributing to OpenSource projects
-- How does a typical workflow look when wanting to contribute to a GitHub project
+- Become acquainted with the standard workflow for contributions to pubic GitHub/GitLab projects
+
 #### Examples and learning by doing
-Go through the feature branch workflow by means of Issue-Pull/Merge request
+- Step through a "feature branch" development cycle by means of the project management tolls provided by the remote services
+- Identify and resolve some conflicts directly on the remote service
 
 
 ---
