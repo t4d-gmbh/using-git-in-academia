@@ -95,27 +95,24 @@ _That would be the end of part 1_
 ---
 
 ### 4. Part: [Git and Science](https://github.com/t4d-gmbh/git-and-science)
-_Here to focus would be on how git and its remotes can help to do better science_
 
 #### Versioning as basis for reproducibility
+- Embrace how the commit based git history allows to recreate specific states and configurations
+- Apprehend the gap between versioning and reproducibility
+
 #### git LFS
-- what is it, how to use it
+- Learn to version data and larger (binary) files with git
+
 #### git submodules
-- how to tie together bigger frameworks
+- Become familiar with the approach to recreate environments with multiple git repositories
+
 #### Remotes project management tools
-- History of Issues/P/M-Requests serves a log-book
-- "code" reviewing process facilitates to work collaboratively
-- A project is developed directly in a structured and "polished" manner
-- ...
+- See how project management tools can facilitate to adhere to best practices and scientific integrity
+
 #### CI/CD for reproducibility
-- Allows to tie application/analysis to specific code versions and tasks (issues) in the project
-- Runner environment can be made completely reproducible (see e.g. the r-container repo.) and shareable
+- Be able to configure runners with completely reproducible environments
+- Get familiar with conducting an analysis or simulation via an automation workflow
+- Appreciate how automation workflows can bride the gap between versioning and reproducibility
 
 #### Examples and learning by doing
-Example setup with software package, repo for analysis, some data in git lfs and a pipeline running some
-analysis script with results returned via artifacts.
-
-General question and feedback round
-
-_That would be the end of part 3_
-
+- Complete, use and verify the reproducibility of an exemplary analysis automated with workflows
