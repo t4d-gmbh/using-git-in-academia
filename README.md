@@ -2,8 +2,11 @@
 
 A course for the casual git user...
 
+ <!-- redame-include -->
 
 ## Content
+
+ <!-- syllabus-include -->
 
 ### 1. Part: [Working with git](https://github.com/t4d-gmbh/working-with-git)
 
