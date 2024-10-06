@@ -16,21 +16,19 @@ Typically, the content of a slide should be written in a single markdown file
 that can be either be imported into a single page, or as individual pages.
 The basic syntax looks similar to this:
 
-```markdown
-{% if build == "slides" %}
-```{toctree}
-:maxdepth: 2
-
-./slide1
-./slide2
-```
-{% else %}
-```{include} ./slide1.md
-```
-```{include} ./slide2.md
-```
-{% endif %}
-```
+    {% if build == "slides" %}
+    ```{toctree}
+    :maxdepth: 2
+    
+    ./slide1
+    ./slide2
+    ```
+    {% else %}
+    ```{include} ./slide1.md
+    ```
+    ```{include} ./slide2.md
+    ```
+    {% endif %}
 
 ### Building the content
 
