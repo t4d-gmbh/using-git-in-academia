@@ -1,4 +1,4 @@
-# Contributing to the `working-with-git` course 📚
+# Contributing to the `using-git-in-academia` course 📚
 
 Thank you for your interest in contributing to our documentation!
 We appreciate your help in making this course better.
@@ -21,18 +21,24 @@ Follow these steps:
 
 1. **Clone the Repository**:
     ```
-    git clone https://github.com/t4d-gmbh/working-with-git
-    cd working-with-git
+    git clone https://github.com/t4d-gmbh/using-git-in-academia
+    cd using-git-in-academia
     ```
 
-2. **Install Dependencies**:
+2. **Get content from the submodules**:
+    ```
+    git submodule init
+    git submodule update --remote
+    ```
+
+3. **Install Dependencies**:
    Make sure you have Sphinx installed.
    You can install it, along with all ohter dependencies using pip:
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Build&view the content**
+4. **Build&view the content**
    To build the content locally, run:
    ```
    sphinx-build -b html source docs/html -E -A build="pages"
