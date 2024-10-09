@@ -67,8 +67,8 @@ slides_icon = {
 html_theme_options = {
     "repository_url": "https://github.com/t4d-gmbh/using-git-in-academia",
     "repository_branch": "main",
-    "home_page_in_toc": True,
     "path_to_docs": "source/",
+    # "home_page_in_toc": True,
     "use_edit_page_button": True,
     "use_repository_button": True,
     "toc_title": "Content",

@@ -3,12 +3,19 @@
 ```
 
 ```{toctree}
-:maxdepth: 2
 :caption: About
+:maxdepth: {% if build == "slides" %}1{% else %}2{% endif %}
+{% if build == "slides" %}:numbered:
+{% endif %}
 
 content/about/index
-parts/part1/index
-parts/part2/index
-parts/part3/index
-parts/part4/index
+```
+
+```{toctree}
+:caption: Working with Git
+:maxdepth: {% if build == "slides" %}1{% else %}2{% endif %}
+{% if build == "slides" %}:numbered:
+{% endif %}
+
+part1/index
 ```
