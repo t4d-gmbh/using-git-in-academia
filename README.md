@@ -2,8 +2,10 @@
 
 A course for the casual git user...
 
-
+ <!-- readme-include -->
 ## Content
+
+ <!-- syllabus-include -->
 
 ### 1. Part: [Working with git](https://github.com/t4d-gmbh/working-with-git)
 
@@ -116,3 +118,16 @@ _That would be the end of part 1_
 
 #### Examples and learning by doing
 - Complete, use and verify the reproducibility of an exemplary analysis automated with workflows
+
+<!-- syllabus-exclude-->
+
+## Contributing 🤝🎉
+
+We welcome contributions to this project!
+Whether you're fixing bugs 🐛 or typos, adding new features ✨, or improving readability 📚, your help is greatly appreciated!
+
+Before you start, please take a moment to read our [CONTRIBUTING.md](CONTRIBUTING.md) file.
+It contains some details and guidelines 📋 on how to structure new content and best practices to help you get started and ensure that your contributions aligned with the project's goals. 🚀
+
+Thank you for considering contributing to this course! You're awesome! 🌟
+

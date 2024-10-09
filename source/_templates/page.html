@@ -1,0 +1,45 @@
+{% extends "!layout.html" %}
+
+{% block body %}
+
+{% if build == "slides" %}
+<div style="display: flex; justify-content: flex-start; align-items: center; height: 80vh; width: 95%;">
+  <div id='rescaled-text' style="margin-left: 1vw; margin-right:1vw; width: 100%;">
+    {{ body }}
+  </div>
+</div>
+
+<script>
+        function adjustFontSize() {
+            // Get the viewport height
+            const vh = window.innerHeight;
+
+            // Select the responsive-text div by ID
+            const responsiveDiv = document.getElementById('rescaled-text');
+
+            // Set font sizes for all child elements based on viewport height
+            responsiveDiv.style.fontSize = (vh * 0.02) + 'px'; // Base font size for all children
+
+            // // Optionally, you can set specific sizes for certain tags
+            const heading = responsiveDiv.querySelector('h1');
+            const paragraph = responsiveDiv.querySelector('p');
+            const smallText = responsiveDiv.querySelector('small');
+
+            // // Adjust sizes for specific tags
+            heading.style.fontSize = (vh * 0.04) + 'px'; // 8% of viewport height for h1
+            paragraph.style.fontSize = (vh * 0.02) + 'px'; // 5% of viewport height for p
+            smallText.style.fontSize = (vh * 0.02) + 'px'; // 3% of viewport height for small
+        }
+
+
+        // Adjust font size on initial load
+        adjustFontSize();
+
+        // Adjust font size on window resize
+        window.addEventListener('resize', adjustFontSize);
+    </script>
+
+{% else %}
+    {{ body }}
+{% endif %}
+{% endblock %}

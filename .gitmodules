@@ -1,0 +1,4 @@
+[submodule "source/content/working-with-git"]
+	path = source/content/working-with-git
+	url = https://github.com/t4d-gmbh/working-with-git.git
+	branch = main
