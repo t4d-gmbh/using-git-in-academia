@@ -17,5 +17,5 @@ content/about/index
 {% if build == "slides" %}:numbered:
 {% endif %}
 
-part1/index
+content/working-with-git/source/content/index
 ```
