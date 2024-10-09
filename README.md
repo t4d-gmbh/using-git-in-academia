@@ -2,50 +2,7 @@
 
 A course for the casual git user...
 
- <!-- redame-include -->
-
-## Development
-
-We can build both pages and slides.
-
-What content should go into `slides`, and what into `pages` can be
-determined directly in each markdown file, using the `{% if build == 'pages' %}`
-or `{% if build == 'slides' %} ... {% else %} ... {% endif %}` jinja tags.
-
-Typically, the content of a slide should be written in a single markdown file
-that can be either be imported into a single page, or as individual pages.
-The basic syntax looks similar to this:
-
-    {% if build == "slides" %}
-    ```{toctree}
-    :maxdepth: 2
-    
-    ./slide1
-    ./slide2
-    ```
-    {% else %}
-    ```{include} ./slide1.md
-    ```
-    ```{include} ./slide2.md
-    ```
-    {% endif %}
-
-### Building the content
-
-To build the `pages`:
-
-```bash
-sphinx-build -b html source docs/html -E -A build="pages"
-```
-
-And to build the `slides`:
-
-```bash
-sphinx-build -b html source docs/html/slides -E -A build="slides"
-```
-
-_Note:_ The resulting html resides under `/docs/html/slides`
-
+ <!-- readme-include -->
 ## Content
 
  <!-- syllabus-include -->
@@ -161,3 +118,16 @@ _That would be the end of part 1_
 
 #### Examples and learning by doing
 - Complete, use and verify the reproducibility of an exemplary analysis automated with workflows
+
+<!-- syllabus-exclude-->
+
+## Contributing 🤝🎉
+
+We welcome contributions to this project!
+Whether you're fixing bugs 🐛 or typos, adding new features ✨, or improving readability 📚, your help is greatly appreciated!
+
+Before you start, please take a moment to read our [CONTRIBUTING.md](CONTRIBUTING.md) file.
+It contains some details and guidelines 📋 on how to structure new content and best practices to help you get started and ensure that your contributions aligned with the project's goals. 🚀
+
+Thank you for considering contributing to this course! You're awesome! 🌟
+
