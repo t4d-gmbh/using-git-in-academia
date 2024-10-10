@@ -5,3 +5,4 @@
 [submodule "source/content/git-and-its-remotes"]
 	path = source/content/git-and-its-remotes
 	url = https://github.com/t4d-gmbh/git-and-its-remotes
+	branch = main

@@ -19,3 +19,12 @@ content/about/index
 
 content/working-with-git/source/content/index
 ```
+
+```{toctree}
+:caption: Git and its Remotes
+:maxdepth: {% if build == "slides" %}1{% else %}2{% endif %}
+{% if build == "slides" %}:numbered:
+{% endif %}
+
+content/git-and-its-remotes/source/content/index
+```
