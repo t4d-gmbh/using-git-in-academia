@@ -7,3 +7,7 @@ aside.sidebar {
 aside.sidebar > ul {
   padding-left: 2rem;
 }
+
+.admonition-title {
+  padding-left: 2em !important;
+}
