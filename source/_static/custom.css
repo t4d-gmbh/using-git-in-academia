@@ -22,3 +22,7 @@
 .add{
   color: gray;
 }
+
+.admonition .sd-container-fluid {
+  margin-left: inherit !important;
+}
