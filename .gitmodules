@@ -6,3 +6,6 @@
 	path = source/content/git-and-its-remotes
 	url = https://github.com/t4d-gmbh/git-and-its-remotes
 	branch = main
+[submodule "source/content/ci-cd-workflows"]
+	path = source/content/ci-cd-workflows
+	url = https://github.com/t4d-gmbh/ci-cd-workflows

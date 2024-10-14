@@ -28,3 +28,12 @@ content/working-with-git/source/content/index
 
 content/git-and-its-remotes/source/content/index
 ```
+
+```{toctree}
+:caption: CI/CD Workflows
+:maxdepth: {% if build == "slides" %}1{% else %}2{% endif %}
+{% if build == "slides" %}:numbered:
+{% endif %}
+
+content/ci-cd-workflows/source/content/index
+```
