@@ -9,3 +9,6 @@
 [submodule "source/content/ci-cd-workflows"]
 	path = source/content/ci-cd-workflows
 	url = https://github.com/t4d-gmbh/ci-cd-workflows
+[submodule "source/content/git-and-science"]
+	path = source/content/git-and-science
+	url = https://github.com/t4d-gmbh/git-and-science.git
