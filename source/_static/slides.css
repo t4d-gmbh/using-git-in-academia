@@ -11,3 +11,7 @@ aside.sidebar > ul {
 .admonition-title {
   padding-left: 2em !important;
 }
+
+.sidebar-hidden .sidebar {
+  display: none;
+}

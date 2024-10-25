@@ -10,36 +10,47 @@
 </div>
 
 <script>
-        function adjustFontSize() {
-            // Get the viewport height
-            const vh = window.innerHeight;
+    function adjustFontSize() {
+        const vh = window.innerHeight;
+        const responsiveDiv = document.getElementById('rescaled-text');
+        responsiveDiv.style.fontSize = (vh * 0.02) + 'px';
 
-            // Select the responsive-text div by ID
-            const responsiveDiv = document.getElementById('rescaled-text');
+        const heading = responsiveDiv.querySelector('h1');
+        const paragraph = responsiveDiv.querySelector('p');
+        const smallText = responsiveDiv.querySelector('small');
 
-            // Set font sizes for all child elements based on viewport height
-            responsiveDiv.style.fontSize = (vh * 0.02) + 'px'; // Base font size for all children
+        if (heading) heading.style.fontSize = (vh * 0.04) + 'px';
+        if (paragraph) paragraph.style.fontSize = (vh * 0.02) + 'px';
+        if (smallText) smallText.style.fontSize = (vh * 0.02) + 'px';
+    }
 
-            // // Optionally, you can set specific sizes for certain tags
-            const heading = responsiveDiv.querySelector('h1');
-            const paragraph = responsiveDiv.querySelector('p');
-            const smallText = responsiveDiv.querySelector('small');
+    function saveState() {
+        localStorage.setItem('isFullScreen', document.fullscreenElement ? 'true' : 'false');
+        localStorage.setItem('isSidebarHidden', document.body.classList.contains('sidebar-hidden') ? 'true' : 'false');
+    }
 
-            // // Adjust sizes for specific tags
-            heading.style.fontSize = (vh * 0.04) + 'px'; // 8% of viewport height for h1
-            paragraph.style.fontSize = (vh * 0.02) + 'px'; // 5% of viewport height for p
-            smallText.style.fontSize = (vh * 0.02) + 'px'; // 3% of viewport height for small
+    function applyState() {
+        const isFullScreen = localStorage.getItem('isFullScreen') === 'true';
+        const isSidebarHidden = localStorage.getItem('isSidebarHidden') === 'true';
+
+        if (isFullScreen) {
+            document.documentElement.requestFullscreen();
         }
 
+        if (isSidebarHidden) {
+            document.body.classList.add('sidebar-hidden');
+        }
+    }
 
-        // Adjust font size on initial load
+    window.addEventListener('resize', adjustFontSize);
+    window.addEventListener('beforeunload', saveState);
+    document.addEventListener('DOMContentLoaded', () => {
         adjustFontSize();
-
-        // Adjust font size on window resize
-        window.addEventListener('resize', adjustFontSize);
-    </script>
-
+        applyState();
+    });
+</script>
 {% else %}
     {{ body }}
 {% endif %}
+
 {% endblock %}
