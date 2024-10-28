@@ -9,3 +9,4 @@
 ./presenters
 {% endif %}
 ```
+_If you like this type of presentation format checkout the [t4d-gmbh/web-course-template](https://github.com/t4d-gmbh/web-course-template)_
