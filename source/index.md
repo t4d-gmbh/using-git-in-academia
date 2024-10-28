@@ -4,8 +4,9 @@
 
 ```{toctree}
 :caption: About
-:maxdepth: {% if build == "slides" %}0{% else %}2{% endif %}
+:maxdepth: {% if build == "slides" %}1{% else %}2{% endif %}
 {% if build == "slides" %}:numbered:
+:hidden:
 {% endif %}
 
 content/about/index
@@ -16,7 +17,7 @@ content/about/index
 {% endif %}
 ```{toctree}
 :caption: Working with Git
-:maxdepth: {% if build == "slides" %}0{% else %}2{% endif %}
+:maxdepth: {% if build == "slides" %}1{% else %}2{% endif %}
 {% if build == "slides" %}:numbered:
 :hidden:
 {% endif %}

@@ -1,8 +1,9 @@
 ## Prior knowledge
 
-- You should be familiar with the **git commands**:
+- You should be familiar with the <i class="fab fa-git"></i> **commands**:
   - `pull`
   - `push`
   - `commit`
 
-- Having heard of and used `GitHub` and `GitLab` is a plus
+
+- Familiarity with and experience using <i class="fab fa-github"></i> **GitHub** and <i class="fab fa-gitlab"></i> **GitLab** is an advantage.

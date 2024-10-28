@@ -1,6 +1,6 @@
 # Using Git in Academia
 
-A course for the casual git user...
+A seminar for the casual git user...
 
  <!-- readme-include -->
 ## Content
@@ -69,7 +69,7 @@ _That would be the end of part 1_
 ---
 
 
-### 3. Part: Continuous Integration and Delivery
+### 3. Part: [CI/CD Workflows](https://github.com/t4d-gmbh/ci-cd-workflows)
 
 #### Why remotes offer automation
 - Get an idea about the vast application possibilities of automation
