@@ -14,6 +14,9 @@
 1. Part: **[Working with git](https://github.com/t4d-gmbh/working-with-git)**
 
 ---
+Lunch @ Green Kitchen Lab (12:30-13:30). 
+
+---
 2. Part: **[Git and its Remotes](https://github.com/t4d-gmbh/git-and-its-remotes)**
 
 :::
