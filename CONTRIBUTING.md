@@ -74,7 +74,7 @@ The content is rendered both as slides and as html pages.
 Typically, slides should contain illustrations and bullet-point like text snippets while the 
 pages should be somewhat more self-contained.
 
-Since we do not wont to duplicate content we can create markdown files that can be rendered both
+Since we do not want to duplicate content we can create markdown files that can be rendered both
 as slides and included into the static view of html pages.
 To achieve this we render all the markdown content with `jinja` before converting it to `html` and
 pass a `build` context variable along that is either set to `"slides"` or `"pages"`.
