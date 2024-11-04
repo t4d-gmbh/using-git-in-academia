@@ -3,6 +3,16 @@
 A seminar for the casual git user...
 
  <!-- readme-include -->
+
+---
+
+_If you find this course useful, please share it with others! Show your support by giving it a 🌟 using the ⭐-button at the top right of the page._
+
+_By starring the repository, you help increase its visibility, making it easier for others to 🔍 discover and 👩‍🎓 learn how to use Git and its remote services with confidence!_
+
+---
+
+ 
 ## Content
 
  <!-- syllabus-include -->
