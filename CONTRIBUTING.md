@@ -6,16 +6,16 @@ Please follow the guidelines below to ensure a smooth contribution process.
 
 ## Git Submodules
 
-Each chapter of this course (with the exception of the [About Chapter](https://t4d-gmbh.github.io/using-git-in-academia/content/about/index.html)) is a standalone Git repository that we include as a submodule into this course.
+Each chapter of this course (with the exception of the [About Chapter](https://t4d-gmbh.github.io/using-git-in-academia/content/about/index.html)) is a standalone Git repository that we include as a Git submodule.
 [Git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules) is a fantastic functionality and we talk about it in more detail in our [git-and-scince](https://t4d-gmbh.github.io/git-and-science/content/submodules/index.html) course module.
 
-However, when working with Git submodules on **GitHub** and on **GitLab**, in particular regarding contributions, there is one thing that we need take into account:
+However, when working with Git submodules on **GitHub** and on **GitLab**, in particular regarding contributions, there is one complicating aspect that needs to be taken into account:
 
 It is not possible to fork only the parent module and then suggest edits in the submodules in a Merge/Pull Request of the parent repository.
 
-Instead, if you would like **to contribute to one of the chapters**, the approach is as follows:
+Instead, **if you would like to contribute to one of the chapters**, the approach is as follows:
 
-1. head over to the respective Repository on **GitHub**:
+1. Head over to the respective Repository on **GitHub**:
 
    1. Part: [Working with git](https://github.com/t4d-gmbh/working-with-git)
    2. Part: [Git and its Remotes](https://github.com/t4d-gmbh/git-and-its-remotes)
@@ -23,7 +23,7 @@ Instead, if you would like **to contribute to one of the chapters**, the approac
    4. Part: [Git and Science](https://github.com/t4d-gmbh/git-and-science)
 
 1. Follow the contribution guide in the respective Repository up to the creation of a Pull Request.
-1. [Create an issue](https://github.com/t4d-gmbh/using-git-in-academia/issues/new) here in the parent repository, with the link to the Pull Request you had opened in one of the chapters and a short description of why you think it would make sense to include these changes in this course.
+1. [Create an issue](https://github.com/t4d-gmbh/using-git-in-academia/issues/new) here in the parent repository, with the link to the Pull Request you had opened and a short description of why you think it would make sense to include these changes in this course.
 
 
 ---
