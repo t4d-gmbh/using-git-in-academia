@@ -130,4 +130,3 @@ Before you start, please take a moment to read our [CONTRIBUTING.md](CONTRIBUTIN
 It contains some details and guidelines 📋 on how to structure new content and best practices to help you get started and ensure that your contributions aligned with the project's goals. 🚀
 
 Thank you for considering contributing to this course! You're awesome! 🌟
-
