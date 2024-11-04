@@ -65,10 +65,13 @@ _This follows the procedure we discuss in the [Contributing to 🔓 Open Source 
    - Follow the steps the [Setting Up Your Environment ⚙️](#setting-up-your-environment-%EF%B8%8F) section to set up a local development.
    - Details about how the slides and pages are implemented can be found in the section [Implementing Changes 🛠️](#implementing-changes-%EF%B8%8F).
 
-1. 🚀 Submit you changes by creating a Pull Request
+1. 🚀 Submit your changes by creating a Pull Request 🚀.
 
-   Once you are done, go to the original repository on GitHub and open a Pull Request.
+   Once you are done with the implementation, go to the original repository on GitHub and open a Pull Request.
+
    Link the Pull Request to the Issue you had created earlier and provide a clear description of your changes and why they are needed.
+
+🌟 Thanks a lot for your contribution! 🌟
 
 ---
 ---
