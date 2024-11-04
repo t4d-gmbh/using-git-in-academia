@@ -31,7 +31,7 @@ Instead, **if you would like to contribute to one of the chapters**, the approac
 
 If you have **a contribution to the content that resides directly in this repository**, i.e. not in one of the submodules, simply read on:
 
-## General Guidelines 📝
+## General Guidelines 📜
 
 - **Be Respectful**: Treat all contributors with respect and kindness.
   We are all here to learn and improve.
@@ -40,21 +40,63 @@ If you have **a contribution to the content that resides directly in this reposi
 - **Use Clear Language**: Aim for clarity and conciseness in your writing.
   Avoid jargon unless you are using terms that are generally understood.
 
+
+## We welcome Contributions 👋
+
+Here are some ways you can contribute:
+
+- **Fixing Typos**: Simple fixes like correcting typos or grammatical errors are always welcome!
+- **Improving Clarity**: If you find sections that are unclear, feel free to rewrite them for better understanding.
+- **Adding Examples**: Examples can greatly enhance the documentation. If you have a use case, consider adding it.
+- **Suggest Additions**: If you think that the course is missing come crucial aspects, let us know by [creating an Issue](https://github.com/t4d-gmbh/using-git-in-academia/issues/new).
+
+## Declaring Contributions 📝
+
+If you would like to **fix typos, grammatical errors and other cosmetic changes**, you might simply skip this step.
+In all other cases, start by [creating an Issue](https://github.com/t4d-gmbh/using-git-in-academia/issues/new) describing why some edits should be made.
+
+## Making Contributions ✨
+
+_This follows the procedure we discuss in the [Contributing to 🔓 Open Source Repositories](https://t4d-gmbh.github.io/git-and-its-remotes/content/contributing/index.html) chapter of the [git-and-its-remotes](https://t4d-gmbh.github.io/git-and-its-remotes/index.html) course module._
+
+1. 🍴 [Fork the Repository](https://github.com/t4d-gmbh/using-git-in-academia/fork) to create your own copy you can work on.
+1. ✏️ Implement you changes in your own fork of the repository.
+   
+   - Follow the steps the [Setting Up Your Environment ⚙️](#setting-up-your-environment-%EF%B8%8F) section to set up a local development.
+   - Details about how the slides and pages are implemented can be found in the section [Implementing Changes 🛠️](#implementing-changes-%EF%B8%8F).
+
+1. 🚀 Submit you changes by creating a Pull Request
+
+   Once you are done, go to the original repository on GitHub and open a Pull Request.
+   Link the Pull Request to the Issue you had created earlier and provide a clear description of your changes and why they are needed.
+
+---
+---
+
 ## Setting Up Your Environment ⚙️
 
 To contribute to this course, you'll need to set up your build environment 🏗️.
 
 Follow these steps:
 
-1. **Clone the Repository**:
+1. **Clone your fork of the Repository**
     ```
-    git clone https://github.com/t4d-gmbh/using-git-in-academia
-    cd using-git-in-academia
+    git clone https://github.com/<your-user-name>/<name-of-your-fork>
+    cd <name-of-your-fork>
     ```
+
+1. **Setting up a virtual environment**:
+
+   For example with `venv` directly:
+
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate
+   ```
 
 1. **Install Dependencies**:
    Make sure you have Sphinx installed.
-   You can install it, along with all ohter dependencies using pip:
+   You can install it, along with all other dependencies using pip:
    ```bash
    pip install -r requirements.txt
    ```
@@ -70,7 +112,7 @@ Follow these steps:
    The first command will build the static html pages and the second command builds the slides 🖼️.
    
    To browse the html pages locally, open `docs/html/index.html` in your favorite browser.
-   For the slides, open `docs/html/slides/index.html`
+   To view the slides open `docs/html/slides/index.html`.
 
    ⚠️ Note ⚠️: The links to switch from the html pages view to the slides view are broken when locally
    viewing the files.
@@ -152,40 +194,6 @@ The above `slide1.md` could look as follows:
     {% if page %}
     This text is only in the pages view and not on the slide
     {% endif %}
-
-
-## Making Contributions ✨
-
-Here are some ways you can contribute:
-
-- **Fixing Typos**: Simple fixes like correcting typos or grammatical errors are always welcome!
-- **Improving Clarity**: If you find sections that are unclear, feel free to rewrite them for better understanding.
-- **Adding Examples**: Examples can greatly enhance the documentation. If you have a use case, consider adding it.
-- **Suggest Additions**: If you think that the course is missing come curcial aspects, let us know by [creating an Issue](https://github.com/t4d-gmbh/using-git-in-academia/issues/new).
-
-## Submitting Changes 🚀
-
-Once you have made your changes, follow these steps to submit them:
-
-1. **Create a New Branch**:
-    ```
-    git checkout -b my-feature-branch
-    ```
-
-2. **Commit Your Changes**:
-   Make sure to write clear and descriptive commit messages:
-    ```
-    git commit -m "Fix typo in about git section"
-    ```
-
-3. **Push to Your Fork**:
-    ```
-    git push origin my-feature-branch
-    ```
-
-4. **Open a Pull Request**:
-   Go to the original repository on GitHub and open a pull request.
-   Provide a clear description of your changes and why they are needed.
 
 ## Additional Resources 🌐
 
