@@ -2,6 +2,13 @@
 :end-before: <!-- readme-include -->
 ```
 
+**Authors**:
+
+Dr. Jonas I. Liechti  
+Dr. Matteo Delucchi
+
+**Content:**
+
 ```{toctree}
 :caption: About
 :maxdepth: {% if build == "slides" %}1{% else %}2{% endif %}
