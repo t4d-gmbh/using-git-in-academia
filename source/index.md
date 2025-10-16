@@ -7,8 +7,12 @@
 **Dr. Jonas I. Liechti**  
 **Dr. Matteo Delucchi**  
 
-  
-**Content:**
+
+### Editors
+
+**Barbara Mejia**
+
+### Content
 
 ```{toctree}
 :caption: About
