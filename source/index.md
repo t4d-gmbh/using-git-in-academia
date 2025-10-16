@@ -2,11 +2,12 @@
 :end-before: <!-- readme-include -->
 ```
 
-**Authors**:
+### Authors
 
-Dr. Jonas I. Liechti  
-Dr. Matteo Delucchi
+**Dr. Jonas I. Liechti**  
+**Dr. Matteo Delucchi**  
 
+  
 **Content:**
 
 ```{toctree}
