@@ -17,8 +17,7 @@
 ```{toctree}
 :caption: About
 :maxdepth: {% if build == "slides" %}1{% else %}2{% endif %}
-{% if build == "slides" %}:numbered:
-:hidden:
+{% if build == "slides" %}:hidden:
 {% endif %}
 
 content/about/index
@@ -28,7 +27,7 @@ content/about/index
 #### Working with <i class="fab fa-git"></i>
 {% endif %}
 ```{toctree}
-:caption: Working with Git
+:caption: Part 1: Working with Git
 :maxdepth: {% if build == "slides" %}1{% else %}2{% endif %}
 {% if build == "slides" %}:numbered:
 :hidden:
@@ -41,7 +40,7 @@ content/working-with-git/source/content/index
 #### <i class="fab fa-git"></i> and its Remotes
 {% endif %}
 ```{toctree}
-:caption: Git and its Remotes
+:caption: Part 2: Git and its Remotes
 :maxdepth: {% if build == "slides" %}1{% else %}2{% endif %}
 {% if build == "slides" %}:numbered:
 :hidden:
@@ -54,7 +53,7 @@ content/git-and-its-remotes/source/content/index
 #### CI/CD Workflows
 {% endif %}
 ```{toctree}
-:caption: CI/CD Workflows
+:caption: Part 3: CI/CD Workflows
 :maxdepth: {% if build == "slides" %}1{% else %}2{% endif %}
 {% if build == "slides" %}:numbered:
 :hidden:
@@ -67,7 +66,7 @@ content/ci-cd-workflows/source/content/index
 #### <i class="fab fa-git"></i> and Science
 {% endif %}
 ```{toctree}
-:caption: Git and Science
+:caption: Part 4: Git and Science
 :maxdepth: {% if build == "slides" %}1{% else %}2{% endif %}
 {% if build == "slides" %}:numbered:
 :hidden:

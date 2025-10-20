@@ -17,7 +17,7 @@ _By starring the repository, you help increase its visibility, making it easier 
 
  <!-- syllabus-include -->
 
-### 1. Part: [Working with git](https://github.com/t4d-gmbh/working-with-git)
+### 1. Part: [Working with Git](https://github.com/t4d-gmbh/working-with-git)
 
 #### Introduction to git
 - Know the basic building blocks of Git (Commits, Branches, Tags) and their relation

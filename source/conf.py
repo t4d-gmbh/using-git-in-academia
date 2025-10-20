@@ -12,7 +12,7 @@ from setuptools_scm import get_version
 
 
 project = 'Git in Academia'
-copyright = '2023-2024; T4D GmbH'
+copyright = '2023-2025; T4D GmbH'
 author = 'Jonas I. Liechti'
 # ###
 # Versioning - get it from the git tag

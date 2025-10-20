@@ -17,7 +17,7 @@ Instead, **if you would like to contribute to one of the chapters**, the approac
 
 1. Head over to the respective Repository on **GitHub**:
 
-   1. Part: [Working with git](https://github.com/t4d-gmbh/working-with-git)
+   1. Part: [Working with Git](https://github.com/t4d-gmbh/working-with-git)
    2. Part: [Git and its Remotes](https://github.com/t4d-gmbh/git-and-its-remotes)
    3. Part: [CI/CD Workflows](https://github.com/t4d-gmbh/ci-cd-workflows)
    4. Part: [Git and Science](https://github.com/t4d-gmbh/git-and-science)
