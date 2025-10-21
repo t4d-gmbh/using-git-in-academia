@@ -1,7 +1,20 @@
 ```{include} ../README.md
 :end-before: <!-- readme-include -->
 ```
+{% if build == "slides" %}
+<!-- <p style="font-size: 0.9em;"><strong>Dr. Jonas I. Liechti</strong><br>
+<strong>Dr. Matteo Delucchi</strong></p> -->
+:::{admonition} Authors
+:class: note, margin
+Dr. Jonas I. Liechti  
+Dr. Matteo Delucchi
+:::
 
+:::{admonition} Editors
+:class: note, margin
+Barbara Mejia
+:::
+{% else %}
 ### Authors
 
 **Dr. Jonas I. Liechti**  
@@ -11,6 +24,7 @@
 ### Editors
 
 **Barbara Mejia**
+{% endif %}
 
 ### Content
 
