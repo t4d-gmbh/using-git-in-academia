@@ -88,3 +88,12 @@ content/ci-cd-workflows/source/content/index
 
 content/git-and-science/source/content/index
 ```
+
+```{toctree}
+:caption: Outro
+:maxdepth: {% if build == "slides" %}1{% else %}2{% endif %}
+{% if build == "slides" %}:hidden:
+{% endif %}
+
+content/outro/index
+```
