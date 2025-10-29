@@ -20,13 +20,14 @@
 :class-header: sd-bg-warning sd-text-white
 
 - {octicon}`mortar-board;1em` give courses about **good computational practices**
-- {octicon}`comment-discussion;1em` consult&support in **data science** and **machine learning**
+- {octicon}`comment-discussion;1em` consult & support in **data science** and **machine learning**
 - {octicon}`heart;1em` love to write **open source software**
 
 **{octicon}`search;1em` Find us:**
 
 - **<https://github.com/t4d-gmbh>**
-- {octicon}`globe;1em` <https://t4d.ch>
+- <i class="fa-brands fa-linkedin"></i> [linkedin.com/company/t4d-gmbh](https://www.linkedin.com/company/t4d-gmbh/)
+- {octicon}`globe;1em` [t4d.ch](https://t4d.ch)
 - {octicon}`location;1em` Zurich (CH) & Lisba (PT)
 ::::
 :::::
