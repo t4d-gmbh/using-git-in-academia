@@ -1,7 +1,7 @@
 {% extends "!layout.html" %}
 
-{% block body %}
 
+{% block body %}
 {% if build == "slides" %}
 <div style="display: flex; justify-content: flex-start; align-items: center; height: 80vh; width: 95%;">
   <div id='rescaled-text' style="margin-left: 1vw; margin-right:1vw; width: 100%;">
@@ -43,3 +43,11 @@
     {{ body }}
 {% endif %}
 {% endblock %}
+
+{% block footer %}
+    {{ super() }}  <!-- This keeps the original footer content -->
+    <div class="custom-footer" style="display: flex; justify-content: flex-start; align-items: center; height: 10vh; margin-right:1vw; margin-left: 1vw;">
+        <img src="http://pl02.owen.prolitteris.ch/na/plzm.4d7a8c57-7fd4-42ce-801c-3a4d09d4e378" height="1" width="1" border="0">
+        <p><a href="/content/privacy_policy.html">Privacy Policy</a></p>
+    </div>
+{% endblock footer %}
