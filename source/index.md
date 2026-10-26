@@ -1,6 +1,25 @@
 ```{include} ../README.md
 :end-before: <!-- readme-include -->
 ```
+
+:::{div} text-center gh-pre p-3 rounded font-monospace
+
+<small>A course provided by</small>
+
+```{image} _static/T4D_logo_bw.svg
+:class: only-light
+:width: 220px
+:alt: T4D logo
+:target: https://github.com/t4d-gmbh
+```
+```{image} _static/T4D_logo_wb.svg
+:class: only-dark
+:width: 220px
+:alt: T4D logo
+:target: https://github.com/t4d-gmbh
+```
+:::
+
 {% if build == "slides" %}
 <!-- <p style="font-size: 0.9em;"><strong>Dr. Jonas I. Liechti</strong><br>
 <strong>Dr. Matteo Delucchi</strong></p> -->

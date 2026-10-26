@@ -1,3 +1,41 @@
+/* Fonts are bundled locally, as in the PSC course. */
+@font-face {
+  font-family: 'M+ 2';
+  src: url('fonts/Mplus2-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'M+ 2';
+  src: url('fonts/Mplus2-ExtraBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'M+ Code';
+  src: url('fonts/MplusCodeLatin50-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'M+ Code';
+  src: url('fonts/MplusCodeLatin50-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-family: 'M+ 2', sans-serif;
+  font-weight: normal !important;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'M+ 2', sans-serif;
+  font-weight: 600 !important;
+}
+pre, code {
+  font-family: 'M+ Code', monospace;
+}
+
 .pull {
   color: red;
 }
@@ -25,4 +63,22 @@
 
 .admonition .sd-container-fluid {
   margin-left: inherit !important;
+}
+.bigger {
+  font-size: 130%;
+}
+.smaller {
+  font-size: 60%;
+}
+
+/* Branded surface that follows the theme's light/dark mode. */
+.gh-pre {
+  background-color: #f6f8fa;
+  color: var(--pst-color-text-base, #1f2328);
+  border: 1px solid rgba(31, 35, 40, 0.15);
+}
+html[data-theme="dark"] .gh-pre {
+  background-color: #161b22;
+  color: #e6edf3;
+  border-color: rgba(240, 246, 252, 0.1);
 }

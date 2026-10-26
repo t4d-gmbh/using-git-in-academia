@@ -8,10 +8,17 @@
 :link: https://github.com/t4d-gmbh
 :link-type: url
 
-:::{image} ./logo_v3_with_text.png
+:::{image} ../../_static/T4D_logo_bw.svg
+:class: only-light
 :align: center
 :width: 100%
-:alt: GitHub Org page
+:alt: T4D logo
+:::
+:::{image} ../../_static/T4D_logo_wb.svg
+:class: only-dark
+:align: center
+:width: 100%
+:alt: T4D logo
 :::
 ::::
 

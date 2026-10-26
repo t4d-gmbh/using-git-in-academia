@@ -41,6 +41,7 @@ html_theme = 'sphinx_book_theme'
 html_static_path = ['_static']
 html_css_files = [
     'custom.css',
+    'custom-pst.css',
 ]
 
 html_context = {
@@ -88,7 +89,7 @@ html_theme_options = {
 }
 
 favicons = [
-    "T4D_logo.png"
+    "T4D_logo.svg"
 ]
 
 myst_enable_extensions = [
@@ -131,7 +132,7 @@ def setup(app):
         # simpler sidebar
         app.config.html_sidebars = {
             "**": [
-                # "navbar-logo.html",
+                "navbar-logo.html",
                 "icon-links.html",
                 # "search-button-field.html",
                 "sbt-sidebar-nav.html"

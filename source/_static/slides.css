@@ -1,13 +1,60 @@
+:root {
+  --slide-collapsed-content-max-width: min(90%, 100rem);
+}
+
 .bd-page-width {
-  max-width: max(88rem, 85vw);
+  max-width: max(88rem, 95vw);
 }
 aside.sidebar {
   overflow-x: visible;
+  padding-right: 2vw;
 }
 aside.sidebar > ul {
-  padding-left: 2rem;
+  padding-left: 2vw;
+}
+
+div.margin {
+  width: 14vw;
+  margin-right: -15vw;
+  margin-left: 1vw;
 }
 
 .admonition-title {
   padding-left: 2em !important;
+}
+
+.slide-frame {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 80vh;
+  width: 95%;
+}
+
+/* The checkbox means collapsed only at the theme's desktop breakpoint. */
+@media (min-width: 992px) {
+  #pst-primary-sidebar-checkbox:checked ~ .bd-container .slide-frame {
+    max-width: var(--slide-collapsed-content-max-width);
+    margin-inline: auto;
+  }
+}
+
+#rescaled-text {
+  margin-left: 1vw;
+  margin-right: 1vw;
+  width: 100%;
+  font-size: max(1.6vh, 0.7vw) !important;
+}
+#rescaled-text h1 {
+  margin: 1.5vh 0 0.5vh 0 !important;
+  font-size: max(2vh, 1.2vw) !important;
+}
+#rescaled-text h2 {
+  margin: 1vh 0 0.5vh 0 !important;
+  font-size: max(1.5vh, 0.9vw) !important;
+}
+
+.navbar-brand img {
+  max-height: 6vh;
+  width: auto;
 }
