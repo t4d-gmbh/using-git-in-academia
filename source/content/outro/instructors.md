@@ -8,9 +8,9 @@
 :link: https://github.com/matteodelucchi
 :link-type: url
 
-:::{image} ./matteo_github.png
+:::{image} /_static/matteo_github.png
+:class: instructor-portrait instructor-portrait--outro
 :align: center
-:width: 80%
 :alt: Screenshot Matteo
 :::
 
@@ -21,9 +21,9 @@
 :link: https://github.com/j-i-l
 :link-type: url
 
-:::{image} ./jonas_github.png
+:::{image} /_static/jonas_github.png
+:class: instructor-portrait instructor-portrait--outro
 :align: center
-:width: 80%
 :alt: Screenshot Jonas
 :::
 

@@ -43,6 +43,17 @@ pre, code {
   font-family: 'M+ Code', monospace;
 }
 
+/* Shared portraits stay proportional within their cards and the viewport. */
+img.instructor-portrait {
+  max-height: 80vh;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+img.instructor-portrait--outro {
+  max-width: 80%;
+}
+
 .pull {
   color: red;
 }
