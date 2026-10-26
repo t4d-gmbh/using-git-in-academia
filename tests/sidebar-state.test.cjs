@@ -1,3 +1,10 @@
+/*
+ * SPDX-FileCopyrightText: 2023-2026 Jonas I. Liechti <j-i-l@t4d.ch>
+ * SPDX-FileCopyrightText: 2023-2026 Matteo Delucchi <mail@matteodelucchi.com>
+ *
+ * SPDX-License-Identifier: GPL-3.0-only
+ */
+
 /**
  * Regression tests for slide sidebar persistence, without browser dependencies.
  * Run with: node --test tests/sidebar-state.test.cjs

@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2023-2026 Jonas I. Liechti <j-i-l@t4d.ch>
+# SPDX-FileCopyrightText: 2023-2026 Matteo Delucchi <mail@matteodelucchi.com>
+#
+# SPDX-License-Identifier: GPL-3.0-only
+
 # Configuration file for the Sphinx documentation builder.
 import sys
 

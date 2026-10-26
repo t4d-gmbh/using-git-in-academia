@@ -1,3 +1,10 @@
+/*
+ * SPDX-FileCopyrightText: 2023-2026 Jonas I. Liechti <j-i-l@t4d.ch>
+ * SPDX-FileCopyrightText: 2023-2026 Matteo Delucchi <mail@matteodelucchi.com>
+ *
+ * SPDX-License-Identifier: GPL-3.0-only
+ */
+
 /** Run with: node --test tests/slide-layout.test.cjs */
 const assert = require("node:assert/strict");
 const { readFileSync } = require("node:fs");

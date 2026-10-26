@@ -1,3 +1,10 @@
+/*
+ * SPDX-FileCopyrightText: 2023-2026 Jonas I. Liechti <j-i-l@t4d.ch>
+ * SPDX-FileCopyrightText: 2023-2026 Matteo Delucchi <mail@matteodelucchi.com>
+ *
+ * SPDX-License-Identifier: GPL-3.0-only
+ */
+
 /* Remember the desktop slide sidebar preference without replacing the theme toggle. */
 (() => {
   const checkbox = document.getElementById("pst-primary-sidebar-checkbox");
