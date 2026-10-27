@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2023-2026 Jonas I. Liechti <j-i-l@t4d.ch>
+# SPDX-FileCopyrightText: 2023-2026 Matteo Delucchi <mail@matteodelucchi.com>
+#
+# SPDX-License-Identifier: GPL-3.0-only
+
 # Configuration file for the Sphinx documentation builder.
 import sys
 
@@ -11,9 +16,9 @@ from setuptools_scm import get_version
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 
-project = 'Git in Academia'
+project = 'Git for Academia'
 copyright = '2023-2025; T4D GmbH'
-author = 'Jonas I. Liechti'
+author = 'Jonas I. Liechti, Matteo Delucchi'
 # ###
 # Versioning - get it from the git tag
 # ###
@@ -41,6 +46,7 @@ html_theme = 'sphinx_book_theme'
 html_static_path = ['_static']
 html_css_files = [
     'custom.css',
+    'custom-pst.css',
 ]
 
 html_context = {
@@ -88,7 +94,7 @@ html_theme_options = {
 }
 
 favicons = [
-    "T4D_logo.png"
+    "T4D_logo.svg"
 ]
 
 myst_enable_extensions = [
@@ -131,7 +137,7 @@ def setup(app):
         # simpler sidebar
         app.config.html_sidebars = {
             "**": [
-                # "navbar-logo.html",
+                "navbar-logo.html",
                 "icon-links.html",
                 # "search-button-field.html",
                 "sbt-sidebar-nav.html"

@@ -1,3 +1,10 @@
+<!--
+SPDX-FileCopyrightText: 2023-2026 Jonas I. Liechti <j-i-l@t4d.ch>
+SPDX-FileCopyrightText: 2023-2026 Matteo Delucchi <mail@matteodelucchi.com>
+
+SPDX-License-Identifier: GPL-3.0-only
+-->
+
 # Cookies and Reporting of Access Figures
 
 We use session cookies from the collecting society ProLitteris, Zurich.

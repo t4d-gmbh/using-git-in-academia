@@ -1,0 +1,18 @@
+/* PSC theme colours, shared by the handout and slides. */
+html {
+  --pst-color-primary: #7542b7;
+  --pst-color-link: #412f49;
+  --pst-color-link-hover: #721c9e;
+}
+
+html[data-theme="light"] {
+  --pst-color-primary: #7542b7;
+  --pst-color-link: #412f49;
+  --pst-color-link-hover: #721c9e;
+}
+
+html[data-theme="dark"] {
+  --pst-color-primary: #7542b7;
+  --pst-color-link: #ebcff9;
+  --pst-color-link-hover: #c65ef9;
+}

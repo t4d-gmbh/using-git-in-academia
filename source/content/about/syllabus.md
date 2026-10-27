@@ -30,4 +30,3 @@ Lunch (12:30-13:30).
 4. Part: **[Git and Science](https://github.com/t4d-gmbh/git-and-science)**
 :::
 {% endif %}
-

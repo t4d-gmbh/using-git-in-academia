@@ -1,3 +1,10 @@
+<!--
+SPDX-FileCopyrightText: 2023-2026 Jonas I. Liechti <j-i-l@t4d.ch>
+SPDX-FileCopyrightText: 2023-2026 Matteo Delucchi <mail@matteodelucchi.com>
+
+SPDX-License-Identifier: GPL-3.0-only
+-->
+
 ## About
 :::::{grid} 12
 :gutter: 3
@@ -5,13 +12,21 @@
 ::::{grid-item-card}
 :columns: 4
 :class-header: sd-bg-warning sd-text-white
+:class-body: sd-d-flex-column sd-align-major-center
 :link: https://github.com/t4d-gmbh
 :link-type: url
 
-:::{image} ./logo_v3_with_text.png
+:::{image} ../../_static/T4D_logo_bw.svg
+:class: only-light
 :align: center
 :width: 100%
-:alt: GitHub Org page
+:alt: T4D logo
+:::
+:::{image} ../../_static/T4D_logo_wb.svg
+:class: only-dark
+:align: center
+:width: 100%
+:alt: T4D logo
 :::
 ::::
 

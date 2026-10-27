@@ -1,8 +1,19 @@
-# Using Git in Academia
+# Git for Academia
 
 A seminar for the casual git user...
 
  <!-- readme-include -->
+
+<div align="center">
+  <p><small>A course provided by</small></p>
+  <a href="https://github.com/t4d-gmbh">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./source/_static/T4D_logo_wb.svg">
+      <source media="(prefers-color-scheme: light)" srcset="./source/_static/T4D_logo_bw.svg">
+      <img src="./source/_static/T4D_logo_bw.svg" alt="T4D logo" width="220">
+    </picture>
+  </a>
+</div>
 
 ---
 
