@@ -1,4 +1,4 @@
-# Using Git in Academia
+# Git for Academia
 
 A seminar for the casual git user...
 

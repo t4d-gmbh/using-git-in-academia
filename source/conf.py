@@ -16,7 +16,7 @@ from setuptools_scm import get_version
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 
-project = 'Git in Academia'
+project = 'Git for Academia'
 copyright = '2023-2025; T4D GmbH'
 author = 'Jonas I. Liechti, Matteo Delucchi'
 # ###
