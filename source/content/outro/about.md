@@ -12,6 +12,7 @@ SPDX-License-Identifier: GPL-3.0-only
 ::::{grid-item-card}
 :columns: 4
 :class-header: sd-bg-warning sd-text-white
+:class-body: sd-d-flex-column sd-align-major-center
 :link: https://github.com/t4d-gmbh
 :link-type: url
 
