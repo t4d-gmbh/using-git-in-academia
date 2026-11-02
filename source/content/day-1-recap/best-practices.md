@@ -2,7 +2,7 @@
 
 - **Keep a healthy reference:** Maintain a known, functional and up-to-date reference.
 - **Separate changes:** Group related work into coherent chapters on separate branches.
-- **Make meaningful steps:** Keep commits small and complete without unnecessarily degrading the branch's health.
+- **Make meaningful steps:** Design each commit as a minimal, logically complete step in the history.
 - **Flag states:** Use tags to name and document repository states so they can be identified later.
 
 {% if page %}
