@@ -83,6 +83,18 @@ content/git-and-its-remotes/source/content/index
 ```
 
 {% if slide %}
+#### Day 1 Recap
+{% endif %}
+```{toctree}
+:caption: Day 1 Recap
+:maxdepth: {% if build == "slides" %}1{% else %}2{% endif %}
+{% if slide %}:hidden:
+{% endif %}
+
+Key Takeaways <content/day-1-recap/index>
+```
+
+{% if slide %}
 #### CI/CD Workflows
 {% endif %}
 ```{toctree}
