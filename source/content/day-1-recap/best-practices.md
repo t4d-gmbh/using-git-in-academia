@@ -1,4 +1,4 @@
-{% if slide %}# {% else %}## {% endif %}Best Practices
+# Best Practices
 
 - **Keep a healthy reference:** Maintain a known, functional and up-to-date reference.
 - **Separate changes:** Group related work into coherent chapters on separate branches.
