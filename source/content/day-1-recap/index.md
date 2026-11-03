@@ -10,10 +10,13 @@
 
 ./best-practices
 ./feature-branch
+./git-and-ai-agents
 ```
 {% else %}
 ```{include} ./best-practices.md
 ```
 ```{include} ./feature-branch.md
+```
+```{include} ./git-and-ai-agents.md
 ```
 {% endif %}
